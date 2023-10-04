@@ -16,6 +16,7 @@ public class DevelopGame {
         int y = Integer.parseInt(st.nextToken());
         int direction = Integer.parseInt(st.nextToken());
 
+
         int[][] matrix=new int[n][m];
 
         for (int i = 0; i < n; i++) {

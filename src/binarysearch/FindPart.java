@@ -17,6 +17,7 @@ public class FindPart {
         }
         Arrays.sort(data);
 
+        int m = Integer.parseInt(br.readLine());
         StringTokenizer st = new StringTokenizer(br.readLine());
         while (st.hasMoreTokens()) {
             if (binarySearch(data, 0, data.length, Integer.parseInt(st.nextToken()))) {
